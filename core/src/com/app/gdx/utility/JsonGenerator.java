@@ -28,7 +28,7 @@ public class JsonGenerator {
     }
 
 
-    public void readJson(Class type, String tag, Class elementType) {
+    public void setElementType(Class type, String tag, Class elementType) {
         json.setElementType(type, tag, elementType);
     }
 }
